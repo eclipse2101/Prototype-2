@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AnimalSpawner.cs" />
      <Compile Include="Assets\Scripts\FoodYeeter.cs" />
      <Compile Include="Assets\Scripts\OutOfBoundsDeleter.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
