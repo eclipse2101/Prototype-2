@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OutOfBoundsDeleter : MonoBehaviour
 {
-    public float topBound = 30; 
+    public float topBound = 40; 
     public float bottomBound = -10; 
     
     // Start is called before the first frame update
@@ -24,6 +24,8 @@ public class OutOfBoundsDeleter : MonoBehaviour
         else if (transform.position.z < bottomBound) 
         {
            Destroy(gameObject);
+           Debug.Log("Game Over! Get Better");
+           // if an animal gets past a player then a game over screen will pop up
         }
     }
 }

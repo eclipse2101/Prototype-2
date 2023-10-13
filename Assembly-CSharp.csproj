@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AnimalSpawner.cs" />
      <Compile Include="Assets\Scripts\FoodYeeter.cs" />
+     <Compile Include="Assets\Scripts\GameOverScreen.cs" />
      <Compile Include="Assets\Scripts\OutOfBoundsDeleter.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
