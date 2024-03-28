@@ -9,6 +9,7 @@ public class AnimalSpawner : MonoBehaviour
     float spawnPosZ = 35;
     public float startingSpawn = 5; 
     public float spawnTiming = 1.5f;
+    float generatorNumber; 
     
     
     // Start is called before the first frame update
@@ -26,12 +27,16 @@ public class AnimalSpawner : MonoBehaviour
     void SpawnRandomAnimal()
 
     {
-        
-        Vector3 spawnPos = new Vector3(Random.Range(-SpawnRangeX, SpawnRangeX), 0, spawnPosZ); 
+        generatorNumber = Random.Range(1,3);
+
+        if (generatorNumber == 1)
+        {
+            Vector3 spawnPos = new Vector3(Random.Range(-SpawnRangeX, SpawnRangeX), 0, spawnPosZ); 
             
             int animalIndex = Random.Range(0, animalPrefabs.Length); 
             
             Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
+        }
 
     }
 }

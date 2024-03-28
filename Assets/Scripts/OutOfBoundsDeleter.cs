@@ -24,8 +24,6 @@ public class OutOfBoundsDeleter : MonoBehaviour
         else if (transform.position.z < bottomBound) 
         {
            Destroy(gameObject);
-           Debug.Log("Game Over! Get Better");
-           // if an animal gets past a player then a game over screen will pop up
         }
     }
 }
