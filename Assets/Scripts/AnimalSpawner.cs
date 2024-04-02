@@ -7,6 +7,7 @@ public class AnimalSpawner : MonoBehaviour
     public GameObject[] animalPrefabs;
     float SpawnRangeX = 20;
     float spawnPosZ = 35;
+    float randomSpawnRangeZ = 14;
     public float startingSpawn = 5; 
     public float spawnTiming = 1.5f;
     float generatorNumber; 
@@ -38,5 +39,24 @@ public class AnimalSpawner : MonoBehaviour
             Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
         }
 
+        if (generatorNumber == 2)
+        {
+          Vector3 spawnPos = new Vector3(-25, 0, Random.Range(-randomSpawnRangeZ, randomSpawnRangeZ)); 
+            
+            int animalIndex = Random.Range(0, animalPrefabs.Length); 
+            
+            Instantiate(animalPrefabs[animalIndex], spawnPos, Quaternion.Euler(0, 90, 0));
+
+        }
+
+        if (generatorNumber == 3)
+        {
+          Vector3 spawnPos = new Vector3(25, 0, Random.Range(-randomSpawnRangeZ, randomSpawnRangeZ)); 
+            
+            int animalIndex = Random.Range(0, animalPrefabs.Length); 
+            
+            Instantiate(animalPrefabs[animalIndex], spawnPos, Quaternion.Euler(0, -90, 0));
+            
+        }
     }
 }

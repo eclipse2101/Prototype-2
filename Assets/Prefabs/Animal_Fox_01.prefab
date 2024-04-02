@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750538250}
   - component: {fileID: 4835353893755528650}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Skunk_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750461664}
   - component: {fileID: 4835353893755501194}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Wolf_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750452158}
   - component: {fileID: 4835353893755612394}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Fox_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750443016}
   - component: {fileID: 4835353893755612602}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Skunk_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750527214}
   - component: {fileID: 4835353893755509732}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Wolf_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750456220}
   - component: {fileID: 4835353893755506988}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Raccoon_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -490,7 +490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750569238}
   - component: {fileID: 4835353893755591068}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Raccoon_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750459462}
   - component: {fileID: 4835353893755554986}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Raccoon_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750564350}
   - component: {fileID: 4835353893755487286}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Wolf_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -730,7 +730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750554754}
   - component: {fileID: 4835353893755488514}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Skunk_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750507468}
   - component: {fileID: 4835353893755518824}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Fox_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,9 +894,10 @@ GameObject:
   - component: {fileID: 7912674217922935834}
   - component: {fileID: 1065908376}
   - component: {fileID: 3805338538308728829}
-  m_Layer: 0
+  - component: {fileID: 114502957470855022}
+  m_Layer: 11
   m_Name: Animal_Fox_01
-  m_TagString: Untagged
+  m_TagString: Animals
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1002,6 +1003,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114502957470855022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4835353893750364064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48b3646974684d539bab72cc952b92e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlayer: 0
 --- !u!1 &4835353893750365594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,7 +1026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4835353893750552320}
   - component: {fileID: 4835353893755511396}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Fox_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}

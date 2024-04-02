@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161562845517651833}
   - component: {fileID: 9161562845520586545}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Moose_Male_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161562845517613867}
   - component: {fileID: 9161562845520349203}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Moose_Female_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161562845517624341}
   - component: {fileID: 9161562845520591531}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Moose_Male_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161562845517672579}
   - component: {fileID: 9161562845520588175}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Stag_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161562845517617649}
   - component: {fileID: 9161562845520590759}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Doe_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161562845517691551}
   - component: {fileID: 9161562845520359689}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Stag_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -490,7 +490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161562845517695655}
   - component: {fileID: 9161562845520388119}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Moose_Male_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161562845517671507}
   - component: {fileID: 9161562845520382867}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Moose_Female_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161562845517673777}
   - component: {fileID: 9161562845520561177}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Doe_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -734,9 +734,10 @@ GameObject:
   - component: {fileID: 8708726651490630891}
   - component: {fileID: 2049599321}
   - component: {fileID: 219515585388042691}
-  m_Layer: 0
+  - component: {fileID: 114851815812844944}
+  m_Layer: 11
   m_Name: Animal_Moose_01
-  m_TagString: Untagged
+  m_TagString: Animals
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -840,6 +841,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114851815812844944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9161562845517436391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48b3646974684d539bab72cc952b92e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlayer: 0
 --- !u!1 &9161562845517441119
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,7 +864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9161562845517692193}
   - component: {fileID: 9161562845520372663}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SM_Stag_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

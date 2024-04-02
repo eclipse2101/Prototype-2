@@ -25,5 +25,15 @@ public class OutOfBoundsDeleter : MonoBehaviour
         {
            Destroy(gameObject);
         }
+
+        if (transform.position.x > topBound)
+        {
+         Destroy(gameObject);
+        }
+
+        else if (transform.position.z < -topBound)
+        {
+         Destroy(gameObject);
+        }
     }
 }
